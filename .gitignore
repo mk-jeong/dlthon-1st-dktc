@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# 데이터 및 대용량 모델 파일 제외
+data/
+models/*.pth
+models/*.h5
+models/*.joblib
+
+# 주피터 노트북 체크포인트
+.ipynb_checkpoints/
+
+# 파이썬 컴파일 파일
+src/__pycache__/
